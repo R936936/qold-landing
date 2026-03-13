@@ -15,7 +15,7 @@ import Footer from '@/components/Footer'
 import EmailModal from '@/components/EmailModal'
 
 export default function Home() {
-  const [lang, setLang] = useState<Lang>('en')
+  const [lang, setLang] = useState<Lang>('es')
   const [modal, setModal] = useState<{ open: boolean; type: 'waitlist' | 'whitepaper' }>({
     open: false,
     type: 'waitlist',
